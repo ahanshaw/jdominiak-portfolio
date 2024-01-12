@@ -113,9 +113,9 @@ document.addEventListener("DOMContentLoaded", () => {
 				gridList.remove();
 			}
 
-			if (window.screen.width > 900) {
+			if (window.innerWidth > 900) {
 				setThreeCol();
-			} else if (window.screen.width <= 900 && window.screen.width > 600) {
+			} else if (window.innerWidth <= 900 && window.innerWidth > 600) {
 				setTwoCol();
 			} else {
 				setOneCol();
